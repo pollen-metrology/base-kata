@@ -1,0 +1,12 @@
+[requires]
+gtest/1.8.0@bincrafters/stable
+
+[generators]
+cmake
+
+[imports]
+lib, *.pdb -> ./bin
+lib, libgmock*.a -> ./bin
+lib, gmock*.lib -> ./bin
+lib, libgtest*.a -> ./bin
+lib, gtest*.lib -> ./bin
