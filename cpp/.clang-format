@@ -1,0 +1,35 @@
+---
+Language: Cpp
+FixNamespaceComments: true
+IncludeBlocks: Preserve
+AlignTrailingComments: true
+AllowAllParametersOfDeclarationOnNextLine: false
+BasedOnStyle: Google
+AccessModifierOffset: -2
+AlignEscapedNewlinesLeft: false
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: true
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: true
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Allman
+BreakBeforeTernaryOperators: false
+ColumnLimit: 120
+ConstructorInitializerIndentWidth: 2
+ContinuationIndentWidth: 2
+DerivePointerAlignment: false
+IndentFunctionDeclarationAfterType: false
+IndentWidth: 2
+IndentWrappedFunctionNames: true
+NamespaceIndentation: All
+PointerAlignment: Left
+SpacesBeforeTrailingComments: 1
+SpaceInEmptyParentheses: false
+AllowShortFunctionsOnASingleLine: false
+Standard: Cpp11
+TabWidth: 2
+UseTab: Never
+...
