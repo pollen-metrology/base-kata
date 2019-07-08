@@ -22,3 +22,11 @@ init.bat
 ```
 
 This will create a `build` folder, containing a `kata.sln` project. Open it using Visual Studio.
+
+# How to code
+The suggested way of working is to:
+* Implement tests in `Tests.cpp`
+* Declare things in `Library.h` and implement them in `Library.cpp`
+* Run the tests
+
+If needed, the `Launcher.cpp` can be used to create a runnable application. By the way, Kata generally just need tests. 
