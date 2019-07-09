@@ -1,5 +1,5 @@
 //
-// Runner for Fleche project
+// Runner for standalone application
 //
 
 int main(int argc, char* argv)
